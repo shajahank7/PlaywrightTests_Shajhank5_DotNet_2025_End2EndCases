@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="31929620-b434-4ba1-a852-ae41d3e8c6ed" name="Admin@DESKTOP-7OMV5BU 2025-06-18 23:37:56" runUser="DESKTOP-7OMV5BU\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-18T23:37:56.7692826+05:30" queuing="2025-06-18T23:37:56.7692830+05:30" start="2025-06-18T23:37:18.3875443+05:30" finish="2025-06-18T23:38:55.1993972+05:30" />
+  <TestSettings name="default" id="fcfac973-b955-4878-9fc5-5cf9a2523396">
+    <Deployment runDeploymentRoot="Admin_DESKTOP-7OMV5BU_2025-06-18_23_37_56" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="64078e99-288c-429a-ae22-299eed3cb47f" testId="f5d92162-86f4-ffd6-df14-71b8ba9c324b" testName="Holidays" computerName="DESKTOP-7OMV5BU" duration="00:00:07.4354210" startTime="2025-06-18T23:38:42.0252368+05:30" endTime="2025-06-18T23:38:49.4606560+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64078e99-288c-429a-ae22-299eed3cb47f">
+      <Output>
+        <StdOut>Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test&#xD;
+✅ Total holidays found: 3&#xD;
+\ud83c\udf89 Holidays:&#xD;
+- jkgkdhjfsToday&#xD;
+- Random holiday26th June&#xD;
+- smoke holiday29th August</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39d6f4aa-a15e-4d8a-aa0b-24ebbb499a4c" testId="e12b2564-8322-94f4-1bae-d123135870c2" testName="Loginpage" computerName="DESKTOP-7OMV5BU" duration="00:00:05.6614810" startTime="2025-06-18T23:38:49.4610751+05:30" endTime="2025-06-18T23:38:55.1225552+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39d6f4aa-a15e-4d8a-aa0b-24ebbb499a4c">
+      <Output>
+        <StdOut>Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e82e6429-330a-4fe8-89d4-fa1e9a43dc48" testId="43749696-b77a-639e-7e0d-7e91ad9ec67e" testName="AddEmployeeUI" computerName="DESKTOP-7OMV5BU" duration="00:00:36.3718790" startTime="2025-06-18T23:37:20.3044799+05:30" endTime="2025-06-18T23:37:56.6762923+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e82e6429-330a-4fe8-89d4-fa1e9a43dc48">
+      <Output>
+        <StdOut>Add employee test case&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test&#xD;
+First name in add employee page:Madison&#xD;
+Designation in add employee page:Human Quality Agent&#xD;
+fillcontcatnewell20250618@gmail.com&#xD;
+Email in add employee page:newell20250618@gmail.com&#xD;
+reporting to emial method&#xD;
+search employee method: OW7095&#xD;
+After click method: OW7095&#xD;
+search employee click method: OW7095&#xD;
+email idSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,Pages.AddEmployeePage+&lt;GetEmailID&gt;d__19]&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+email id for writing in excelnewell20250618@gmail.com&#xD;
+After writing into excel sheet</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e398f47e-d3a5-44f7-8af4-1effe702678f" testId="aaa8d274-2280-73ce-1546-194a166ba5f9" testName="Apply" computerName="DESKTOP-7OMV5BU" duration="00:00:12.1162680" startTime="2025-06-18T23:38:05.0243228+05:30" endTime="2025-06-18T23:38:17.1405893+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e398f47e-d3a5-44f7-8af4-1effe702678f">
+      <Output>
+        <StdOut>Apply leave global test datanewell20250618@gmail.com&#xD;
+Apply leave test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id newell20250618@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Inside your profile method&#xD;
+Inside other button method&#xD;
+Inside click submit button&#xD;
+Random date : 1&#xD;
+current date from date: 2025-06-18&#xD;
+current Day: 18&#xD;
+Day of the week: Wednesday&#xD;
+current Day plus one day: 2025-06-19&#xD;
+Submit method start&#xD;
+Submit method end&#xD;
+current Day: 18&#xD;
+Day of the week: Wednesday&#xD;
+current Day plus one day: 19-06-2025&#xD;
+Completeion of apply leave test case</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a80d514a-cd43-47f9-96c4-96e88b3fb4ac" testId="19e387b0-861f-75f9-7c76-3501af01358e" testName="ApproveExtraWorking" computerName="DESKTOP-7OMV5BU" duration="00:00:10.0835220" startTime="2025-06-18T23:38:17.1467349+05:30" endTime="2025-06-18T23:38:27.2302580+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a80d514a-cd43-47f9-96c4-96e88b3fb4ac">
+      <Output>
+        <StdOut>Approve extra working day test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id shajahant389@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Approve extra working day test case completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14216a1f-e48a-434d-952c-27031d058ea2" testId="ca614630-0e47-21d7-d3ad-9846b95bae94" testName="Approve" computerName="DESKTOP-7OMV5BU" duration="00:00:14.7943160" startTime="2025-06-18T23:38:27.2306775+05:30" endTime="2025-06-18T23:38:42.0249925+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14216a1f-e48a-434d-952c-27031d058ea2">
+      <Output>
+        <StdOut>Approve leave test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id shajahant389@gmail.com&#xD;
+Password Shajahan@123&#xD;
+After clicking on leave managemnet in Approve leave&#xD;
+Inside approve leave button started&#xD;
+Inside approve leave button completed&#xD;
+Completeion of approve leave test case</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65bf83ab-624c-4fc2-8339-68d6ea36f4af" testId="2e56f558-03c4-5f0f-c3c9-5c3329b8a917" testName="ApplyExtraDay1" computerName="DESKTOP-7OMV5BU" duration="00:00:08.3438700" startTime="2025-06-18T23:37:56.6800268+05:30" endTime="2025-06-18T23:38:05.0238963+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65bf83ab-624c-4fc2-8339-68d6ea36f4af">
+      <Output>
+        <StdOut>Apply extra working day test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Email id in Apply extra working day test casenewell20250618@gmail.com&#xD;
+Step: Logging in&#xD;
+Email id newell20250618@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Apply extra working day completed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ApplyExtraDay1" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="2e56f558-03c4-5f0f-c3c9-5c3329b8a917">
+      <Execution id="65bf83ab-624c-4fc2-8339-68d6ea36f4af" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.ApplyExtraWorking" name="ApplyExtraDay1" />
+    </UnitTest>
+    <UnitTest name="AddEmployeeUI" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="43749696-b77a-639e-7e0d-7e91ad9ec67e">
+      <Execution id="e82e6429-330a-4fe8-89d4-fa1e9a43dc48" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.AddEmployee" name="AddEmployeeUI" />
+    </UnitTest>
+    <UnitTest name="Loginpage" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="e12b2564-8322-94f4-1bae-d123135870c2">
+      <Execution id="39d6f4aa-a15e-4d8a-aa0b-24ebbb499a4c" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.Login" name="Loginpage" />
+    </UnitTest>
+    <UnitTest name="Apply" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="aaa8d274-2280-73ce-1546-194a166ba5f9">
+      <Execution id="e398f47e-d3a5-44f7-8af4-1effe702678f" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.ApplyLeave" name="Apply" />
+    </UnitTest>
+    <UnitTest name="ApproveExtraWorking" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="19e387b0-861f-75f9-7c76-3501af01358e">
+      <Execution id="a80d514a-cd43-47f9-96c4-96e88b3fb4ac" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.ApproveExtraWorkingDay" name="ApproveExtraWorking" />
+    </UnitTest>
+    <UnitTest name="Holidays" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="f5d92162-86f4-ffd6-df14-71b8ba9c324b">
+      <Execution id="64078e99-288c-429a-ae22-299eed3cb47f" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.Count_Holidays" name="Holidays" />
+    </UnitTest>
+    <UnitTest name="Approve" storage="c:\users\admin\desktop\playwright-18-06-2025\playwrighttests(n)\bin\debug\net9.0\playwrighttests.dll" id="ca614630-0e47-21d7-d3ad-9846b95bae94">
+      <Execution id="14216a1f-e48a-434d-952c-27031d058ea2" />
+      <TestMethod codeBase="C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.ApproveLeave" name="Approve" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f5d92162-86f4-ffd6-df14-71b8ba9c324b" executionId="64078e99-288c-429a-ae22-299eed3cb47f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e12b2564-8322-94f4-1bae-d123135870c2" executionId="39d6f4aa-a15e-4d8a-aa0b-24ebbb499a4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43749696-b77a-639e-7e0d-7e91ad9ec67e" executionId="e82e6429-330a-4fe8-89d4-fa1e9a43dc48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaa8d274-2280-73ce-1546-194a166ba5f9" executionId="e398f47e-d3a5-44f7-8af4-1effe702678f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19e387b0-861f-75f9-7c76-3501af01358e" executionId="a80d514a-cd43-47f9-96c4-96e88b3fb4ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca614630-0e47-21d7-d3ad-9846b95bae94" executionId="14216a1f-e48a-434d-952c-27031d058ea2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e56f558-03c4-5f0f-c3c9-5c3329b8a917" executionId="65bf83ab-624c-4fc2-8339-68d6ea36f4af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in C:\Users\Admin\Desktop\playwright-18-06-2025\PlaywrightTests(N)\bin\Debug\net9.0\PlaywrightTests.dll&#xD;
+   NUnit3TestExecutor discovered 7 of 7 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Add employee test case&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test&#xD;
+First name in add employee page:Madison&#xD;
+Designation in add employee page:Human Quality Agent&#xD;
+fillcontcatnewell20250618@gmail.com&#xD;
+Email in add employee page:newell20250618@gmail.com&#xD;
+reporting to emial method&#xD;
+search employee method: OW7095&#xD;
+After click method: OW7095&#xD;
+search employee click method: OW7095&#xD;
+email idSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.String,Pages.AddEmployeePage+&lt;GetEmailID&gt;d__19]&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+Getting email ID: newell20250618@gmail.com&#xD;
+email id for writing in excelnewell20250618@gmail.com&#xD;
+After writing into excel sheet&#xD;
+&#xD;
+Apply extra working day test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Email id in Apply extra working day test casenewell20250618@gmail.com&#xD;
+Step: Logging in&#xD;
+Email id newell20250618@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Apply extra working day completed&#xD;
+&#xD;
+Apply leave global test datanewell20250618@gmail.com&#xD;
+Apply leave test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id newell20250618@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Inside your profile method&#xD;
+Inside other button method&#xD;
+Inside click submit button&#xD;
+Random date : 1&#xD;
+current date from date: 2025-06-18&#xD;
+current Day: 18&#xD;
+Day of the week: Wednesday&#xD;
+current Day plus one day: 2025-06-19&#xD;
+Submit method start&#xD;
+Submit method end&#xD;
+current Day: 18&#xD;
+Day of the week: Wednesday&#xD;
+current Day plus one day: 19-06-2025&#xD;
+Completeion of apply leave test case&#xD;
+&#xD;
+Approve extra working day test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id shajahant389@gmail.com&#xD;
+Password Shajahan@123&#xD;
+Approve extra working day test case completed&#xD;
+&#xD;
+Approve leave test case&#xD;
+Navigating to URL: https://dev.urbuddi.com/login&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id shajahant389@gmail.com&#xD;
+Password Shajahan@123&#xD;
+After clicking on leave managemnet in Approve leave&#xD;
+Inside approve leave button started&#xD;
+Inside approve leave button completed&#xD;
+Completeion of approve leave test case&#xD;
+&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test&#xD;
+✅ Total holidays found: 3&#xD;
+\ud83c\udf89 Holidays:&#xD;
+- jkgkdhjfsToday&#xD;
+- Random holiday26th June&#xD;
+- smoke holiday29th August&#xD;
+&#xD;
+Step: Navigate to Login Page&#xD;
+Step: Logging in&#xD;
+Email id twl4admin@gmail.com&#xD;
+Password twl4test&#xD;
+&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
