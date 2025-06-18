@@ -29,7 +29,7 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Install Playwright Browsers
-      run: dotnet playwright install
+      run: dotnet playwright install --project ./PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases/PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases.csproj
 
     - name: Run Playwright Tests
       run: dotnet test --configuration Release --no-build --verbosity normal
