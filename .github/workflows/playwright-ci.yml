@@ -17,10 +17,13 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '9.0.x'  # updated to match your csproj
+        dotnet-version: '9.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
+
+    - name: Restore .NET local tools
+      run: dotnet tool restore
 
     - name: Build the solution
       run: dotnet build --configuration Release
