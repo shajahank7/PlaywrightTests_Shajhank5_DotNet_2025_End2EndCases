@@ -17,18 +17,16 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'  # or whatever version you're targeting
-
-    - name: Install Playwright Browsers
-      run: |
-        dotnet tool install --global Microsoft.Playwright.CLI
-        playwright install
+        dotnet-version: '9.0.x'  # updated to match your csproj
 
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build solution
+    - name: Build the solution
       run: dotnet build --configuration Release
+
+    - name: Install Playwright Browsers
+      run: dotnet playwright install
 
     - name: Run Playwright Tests
       run: dotnet test --configuration Release --no-build --verbosity normal
