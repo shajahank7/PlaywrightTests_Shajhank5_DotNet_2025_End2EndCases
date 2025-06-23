@@ -1,70 +1,66 @@
-# name: Playwright C# Tests
-
-# on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-
-# jobs:
-#   build-and-test:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#     - name: Checkout code
-#       uses: actions/checkout@v4
-
-#     - name: Setup .NET SDK
-#       uses: actions/setup-dotnet@v4
-#       with:
-#         dotnet-version: '9.0.x'
-
-#     - name: Restore dependencies
-#       run: dotnet restore
-
-#     - name: Restore .NET local tools
-#       run: dotnet tool restore
-
-#     - name: Build the solution
-#       run: dotnet build --configuration Release
-
-#     - name: Install Playwright Browsers
-#       run: dotnet playwright install --project ./PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases/PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases.csproj
-
-#     - name: Run Playwright Tests
-#       run: dotnet test --configuration Release --no-build --verbosity normal
-name: Playwright C# Tests Runner
+name: Playwright C# Tests
 
 on:
-  workflow_dispatch:
-
+   workflow_dispatch:
 jobs:
-  test:                        
-    runs-on: windows-latest    
+  build-and-test:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Setup .NET SDK 9
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '9.0.x'
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
 
-      - name: Restore dependencies
-        run: dotnet restore
+    - name: Restore dependencies
+      run: dotnet restore
 
-      - name: Restore .NET local tools
-        run: dotnet tool restore
+    - name: Restore .NET local tools
+      run: dotnet tool restore
 
-      - name: Build the solution
-        run: dotnet build --configuration Release
+    - name: Build the solution
+      run: dotnet build --configuration Release
 
-      - name: Install Playwright Browsers
-        run: dotnet playwright install
+    - name: Install Playwright Browsers
+      run: dotnet playwright install --project ./PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases/PlaywrightTests_Shajhank5_DotNet_2025_End2EndCases.csproj
 
-      - name: Run Playwright NUnit Tests
-        run: |
-          dotnet test --configuration Release --logger:"console;verbosity=normal" --results-directory ./TestResults
-        continue-on-error: true
+    - name: Run Playwright Tests
+      run: dotnet test --configuration Release --no-build --verbosity normal
+# name: Playwright C# Tests Runner
+
+# on:
+#   workflow_dispatch:
+
+# jobs:
+#   test:                        
+#     runs-on: windows-latest    
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+
+#       - name: Setup .NET SDK 9
+#         uses: actions/setup-dotnet@v4
+#         with:
+#           dotnet-version: '9.0.x'
+
+#       - name: Restore dependencies
+#         run: dotnet restore
+
+#       - name: Restore .NET local tools
+#         run: dotnet tool restore
+
+#       - name: Build the solution
+#         run: dotnet build --configuration Release
+
+#       - name: Install Playwright Browsers
+#         run: dotnet playwright install
+
+#       - name: Run Playwright NUnit Tests
+#         run: |
+#           dotnet test --configuration Release --logger:"console;verbosity=normal" --results-directory ./TestResults
+#         continue-on-error: true
 
 
